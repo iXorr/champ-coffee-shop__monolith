@@ -1,26 +1,22 @@
-## Итоги первой сессии
+# Coffee Shop
 
-1. Разработал базовую анимацию и макет (layout).
-2. Создал AuthController и почти завершил UserController.
+![Composer](https://img.shields.io/badge/Composer-%23885630.svg?style=for-the-badge&logo=composer&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-%23D22128.svg?style=for-the-badge&logo=apache&logoColor=white)
 
-## Итоги второй сессии
+## DESCRIPTION
 
-1. Завершил все миграции и модели.
-2. Реализовал ClientController и ProductController (импорт товаров, загрузка фотографий, но не успел дописать методы для обновления и удаления).
+A web application developed during a web development championship.
 
-## Итоги третьей сессии
+The project combines features of a small CRM system and an online coffee shop. It includes product management, customer accounts, and user roles such as managers and administrators.
 
-1. Почти завершил работу над OrderController (осталось добавить метод для обновления, а также наложить ограничения на удаление Clients и Products, если они участвуют в заказах).
+## USAGE
 
-## Итоги четвёртой сессии
+### Demo Credentials
 
-1. Завершил фильтрацию для OrderController и DashboardController.
-2. Не успел заняться графическим дизайном.
-
-## Замечания
-
-1. Отработать работу с фронтендом, в частности, с jQuery.
-2. Отработать фильтрацию заказов и dashboard (фильтрация не нужна, но dashboard обязательно).
-3. Попробовать использовать сервер без .htaccess (не рекомендуется, если возникнут проблемы — используй команду php artisan serve).
-4. Проверить цвета (для замены) и попробовать создать логотип (оставлю papayawhip, peachpuff и snow).
-5. Стоит ли заняться дополнительными характеристиками товаров? (Если следовать критериям, это несложно).
+| Role    | Login    | Password      |
+|----------|----------|---------------|
+| Admin    | `admin`   | `kofeman`      |
+| Manager  | `manager1` | `manager2026`  |
+| Manager  | `manager2` | `manager20262` |
